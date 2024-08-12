@@ -28,6 +28,13 @@ public class ContaTerminal {
         
         saldo = 237.48;
 
+
+        if (saldo < 100.0){
+            System.out.println("SALDO INSUFICIENTE.");
+        } else {
+            System.out.println("SEU SALDO É: " + saldo);
+        }
+
         System.out.println("Olá " + nomeCliente +", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
     
        sc.close();
