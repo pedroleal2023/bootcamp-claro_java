@@ -35,7 +35,7 @@ public class ContaTerminal {
 
           soma = saldo + deposito;
 
-        if (soma < 150.0){
+        if (soma < 120.0){
             System.out.println("SALDO INSUFICIENTE PARA SAQUE.");
         } else {
             System.out.println("SEU SALDO É: " + soma);
