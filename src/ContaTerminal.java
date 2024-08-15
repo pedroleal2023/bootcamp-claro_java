@@ -42,10 +42,6 @@ public class ContaTerminal {
         }
 
         System.out.println("Caro Senhor(a) " + nomeCliente +", esses são os dados de sua conta em nosso banco. Sua agência é: " + agencia +", conta: " + numero + " seu saldo: " + saldo);
-    
-       sc.close();
-    
-    
-    
+       sc.close();    
     }
 }
